@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dedede;
+    padding: 5px;
+    margin: 15px;
+    font-size: 25px;
+    font-family:Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 1.95em;
+}
+
+h2{
+    text-align:center;
+  }
+
+li{
+    margin-top: 20px;
+}
+
+img{
+    border: 5px solid blue;
+    border-radius: 35px;
+    width: 100%;
+  }
+
+.label{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* === MEDIA QUERIES === */
+
+/* 1. Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* 2. Tablet (601px - 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  figure {
+    background-color: #f0f8ff;
+    padding: 10px;
+  }
+}
+
+/* 3. Small desktop (901px - 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  figure {
+    background-color: #fffbe0;
+    padding: 15px;
+  }
+}
+
+/* 4. Large screen (min-width: 1201px) */
+@media (min-width: 1201px) {
+  figure {
+    background-color: #e6ffe6;
+    padding: 20px;
+  }
+}
